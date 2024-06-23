@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#f2e5d9"></html>
+<head>
+<link rel="stylesheet" href="shop.css">
+<link rel="stylesheet" href="shop.js">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">The Ordinary</div>
+        <div class="icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="home2.html" >Home</a>
+            </li>
+            <li>
+                <a href="shop.html"class="active">Shop</a>
+            </li>
+            
+            <li>
+                <a href="Aboutus.html">About us</a>
+            </li>
+            <li>
+                <a href="contact.html">Contacts</a>
+            </li>
+            <li>
+                <a href="account.html" style="border:3px solid;font-size:larger;">Account</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <script>
+        icon = document.querySelector(".icon");
+        icon.onclick=function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classlist.toggle("active");
+        }
+    </script>
+
+<h1 style="font-size: 50px;color: #8e6b4d;text-shadow: 2px 2px 2px #d3ab89;margin-left: 50px;margin-top: 50px;"><b>Toners</b></h1>
+<p style="font-size: 25px;color: #ad8e73;text-shadow: 2px 2px 2px #d3ab89; margin-left:50px;">Lightweight products designed <br>to help prepare the skin.</p>
+  <div class="carousel2">
+    <div class="slides2">
+      <div class="slide2">
+        <img src="Glycolicacid7toningsolution.png" alt="Image 1">
+        <div class="slide-content2">
+          <h3 style="text-align: center;">Glycolic Acid 7% Toning Solution 10.90 EUR</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+<header style="list-style-type: none;margin: 0;overflow: hidden;position: fixed;bottom: 0;width: 100%;">
+    <div class="icon">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <nav class="nav-bar" style="margin-left: 200px;">
+        <ul>
+            <li>
+                <a href="shop.html"  style="border:3px solid;font-size:larger;">Exfoliators</a>
+            </li>
+            <li>
+                <a href="facialcleansers.html" style="border:3px solid;font-size:larger;">Facial Cleansers</a>
+            </li>
+            
+            <li>
+                <a href="faceoils.html" style="border:3px solid;font-size:larger;">Face Oils</a>
+            </li>
+            <li> 
+                <a href="moisturizers.html" style="border:3px solid;font-size:larger;">Moistusrizers</a>
+            </li>
+            <li>
+                <a href="toners.html" style="border:3px solid;font-size:larger;"class="active">Toners</a>
+            </li>
+            <li>
+                <a href="serums.html" style="border:3px solid;font-size:larger;">Serums</a>
+            </li>
+        </ul>
+    </nav>
+</header>
